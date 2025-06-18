@@ -9,13 +9,14 @@ function App() {
   return (
     <Router>
       <Routes>
+       
+        <Route path="/" element={<AddProduct />} />
       
 
 
         
-
         <Route path="/add-product" element={<AddProduct />} />
-       
+     
 
 
       </Routes>
