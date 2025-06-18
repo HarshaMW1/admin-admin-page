@@ -21,7 +21,7 @@ function AdminNavbar({ onLogoutClick }) {
   return (
     <>
       <nav className="navbar">
-        <img src="/Images/logo.png" alt="logo" className="logo" />
+        
         <div className="nav-links">
           {navItems.map(item => (
             <Link
